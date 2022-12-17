@@ -31,3 +31,8 @@ body {
   background-color: rgba(var(--c--dark-blue), 1);
   color: rgba(var(--c--off-white), 1);
 }
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
