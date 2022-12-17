@@ -1,0 +1,32 @@
+@font-face {
+  font-family: 'Fira Code';
+  src: url('../fonts/FiraCode-Regular.ttf') format('ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Fira Code';
+  src: url('../fonts/FiraCode-Bold.ttf') format('ttf');
+  font-weight: 700;
+  font-style: normal;
+}
+
+:root {
+  --f: 'Fira Code', monospace;
+  --f--bold: 700;
+  --f--regular: 400;
+  --c--dark-blue: 11, 8, 23;
+  --c--white: 255, 255, 255;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(var(--c--dark-blue), 1);
+  color: rgba(var(--c--white), 1);
+}
