@@ -17,7 +17,7 @@
   --f--bold: 700;
   --f--regular: 400;
   --c--dark-blue: 11, 8, 23;
-  --c--white: 255, 255, 255;
+  --c--off-white: 216, 216, 216;
 }
 
 *,
@@ -28,5 +28,5 @@
 
 body {
   background-color: rgba(var(--c--dark-blue), 1);
-  color: rgba(var(--c--white), 1);
+  color: rgba(var(--c--off-white), 1);
 }
